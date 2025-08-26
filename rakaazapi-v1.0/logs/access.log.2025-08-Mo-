@@ -1,0 +1,958 @@
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"index":0,"level":"error","message":"Error creating unit: ER_NO_SUCH_TABLE: Table 'rakaz_dev.tbl_units' doesn't exist","sql":"INSERT INTO tbl_units (unit_name) VALUES ('ml')","sqlMessage":"Table 'rakaz_dev.tbl_units' doesn't exist","sqlState":"42S02","stack":"Error: ER_NO_SUCH_TABLE: Table 'rakaz_dev.tbl_units' doesn't exist\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.createUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:40:12)\n    at createUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:142:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"level":"info","message":"Units deleted: 1, 2"}
+{"level":"info","message":"Unit created with ID: 3"}
+{"level":"info","message":"Units deleted: 3"}
+{"expiredAt":"2025-08-02T12:33:33.000Z","level":"error","message":"JWT verification failed: jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:152:21\n    at getSecret (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at module.exports [as verify] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at authenticateToken (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:18:9)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:346:12)"}
+{"expiredAt":"2025-08-02T12:33:33.000Z","level":"error","message":"JWT verification failed: jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:152:21\n    at getSecret (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at module.exports [as verify] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at authenticateToken (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:18:9)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:346:12)"}
+{"expiredAt":"2025-08-02T12:33:33.000Z","level":"error","message":"JWT verification failed: jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:152:21\n    at getSecret (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at module.exports [as verify] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at authenticateToken (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:18:9)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:346:12)"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"code":"ER_OPERAND_COLUMNS","errno":1241,"index":0,"level":"error","message":"Error deleting customer admin types: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)","sql":"DELETE FROM tbl_customer_admin_type WHERE id IN (1, 2, ('[object Object]', '[object Object]'))","sqlMessage":"Operand should contain 1 column(s)","sqlState":"21000","stack":"Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:66:8)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:236:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_OPERAND_COLUMNS","errno":1241,"index":0,"level":"error","message":"Error deleting customer admin types: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)","sql":"DELETE FROM tbl_customer_admin_type WHERE id IN (1, 2, ('[object Object]', '[object Object]'))","sqlMessage":"Operand should contain 1 column(s)","sqlState":"21000","stack":"Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:66:8)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:236:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"code":"ER_ROW_IS_REFERENCED_2","errno":1451,"index":0,"level":"error","message":"Error deleting customer admin types: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`rakaz_dev`.`tbl_customer_admins`, CONSTRAINT `tbl_customer_admins_ibfk_1` FOREIGN KEY (`customer_admin_type`) REFERENCES `tbl_customer_admin_type` (`id`))","sql":"DELETE FROM tbl_customer_admin_type WHERE id IN (1, 2)","sqlMessage":"Cannot delete or update a parent row: a foreign key constraint fails (`rakaz_dev`.`tbl_customer_admins`, CONSTRAINT `tbl_customer_admins_ibfk_1` FOREIGN KEY (`customer_admin_type`) REFERENCES `tbl_customer_admin_type` (`id`))","sqlState":"23000","stack":"Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`rakaz_dev`.`tbl_customer_admins`, CONSTRAINT `tbl_customer_admins_ibfk_1` FOREIGN KEY (`customer_admin_type`) REFERENCES `tbl_customer_admin_type` (`id`))\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:66:8)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:236:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_ROW_IS_REFERENCED_2","errno":1451,"index":0,"level":"error","message":"Error deleting customer admin types: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`rakaz_dev`.`tbl_customer_admins`, CONSTRAINT `tbl_customer_admins_ibfk_1` FOREIGN KEY (`customer_admin_type`) REFERENCES `tbl_customer_admin_type` (`id`))","sql":"DELETE FROM tbl_customer_admin_type WHERE id IN (1, 2)","sqlMessage":"Cannot delete or update a parent row: a foreign key constraint fails (`rakaz_dev`.`tbl_customer_admins`, CONSTRAINT `tbl_customer_admins_ibfk_1` FOREIGN KEY (`customer_admin_type`) REFERENCES `tbl_customer_admin_type` (`id`))","sqlState":"23000","stack":"Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`rakaz_dev`.`tbl_customer_admins`, CONSTRAINT `tbl_customer_admins_ibfk_1` FOREIGN KEY (`customer_admin_type`) REFERENCES `tbl_customer_admin_type` (`id`))\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:66:8)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:236:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"code":"ER_DUP_ENTRY","errno":1062,"index":0,"level":"error","message":"Error creating customer admin type: ER_DUP_ENTRY: Duplicate entry 'Government' for key 'tbl_customer_admin_type.cust_admin_type'","sql":"INSERT INTO tbl_customer_admin_type (cust_admin_type,created_by) VALUES ('Government',1)","sqlMessage":"Duplicate entry 'Government' for key 'tbl_customer_admin_type.cust_admin_type'","sqlState":"23000","stack":"Error: ER_DUP_ENTRY: Duplicate entry 'Government' for key 'tbl_customer_admin_type.cust_admin_type'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.createCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:40:12)\n    at createCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:141:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"code":"ER_DUP_ENTRY","errno":1062,"index":0,"level":"error","message":"Error creating customer admin type: ER_DUP_ENTRY: Duplicate entry 'Government' for key 'tbl_customer_admin_type.cust_admin_type'","sql":"INSERT INTO tbl_customer_admin_type (cust_admin_type,created_by) VALUES ('Government',0)","sqlMessage":"Duplicate entry 'Government' for key 'tbl_customer_admin_type.cust_admin_type'","sqlState":"23000","stack":"Error: ER_DUP_ENTRY: Duplicate entry 'Government' for key 'tbl_customer_admin_type.cust_admin_type'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.createCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:40:12)\n    at createCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:141:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin type created with ID: 4"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'aasas'","sql":"DELETE FROM tbl_customer_admin_type WHERE id IN ('aasas')","sqlMessage":"Truncated incorrect DOUBLE value: 'aasas'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'aasas'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:66:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"DELETE FROM tbl_customer_admin_type WHERE id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:66:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","message":"Error fetching customer admin types: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'where clause'","sql":"SELECT * FROM tbl_customer_admin_type where is_delete=0 ORDER BY cust_admin_type","sqlMessage":"Unknown column 'is_delete' in 'where clause'","sqlState":"42S22","stack":"Error: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'where clause'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.getAllCustomerAdminTypes (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:7:12)\n    at getAllCustomerAdminTypes (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:10:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","message":"Error fetching customer admin types: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'where clause'","sql":"SELECT * FROM tbl_customer_admin_type where is_delete=0 ORDER BY cust_admin_type","sqlMessage":"Unknown column 'is_delete' in 'where clause'","sqlState":"42S22","stack":"Error: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'where clause'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.getAllCustomerAdminTypes (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:7:12)\n    at getAllCustomerAdminTypes (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:10:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Unit created with ID: 4"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Kg'","sql":"update tbl_units set is_deleted = 1 where id IN ('Kg', 'ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'Kg'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Kg'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Kg'","sql":"update tbl_units set is_deleted = 1 where id IN ('Kg', 'ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'Kg'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Kg'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","message":"Error creating unit: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'field list'","sql":"\n                UPDATE tbl_units \n                SET is_delete = 0 \n                WHERE id = 1\n            ","sqlMessage":"Unknown column 'is_delete' in 'field list'","sqlState":"42S22","stack":"Error: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'field list'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:56:20)\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '[object Object]'","sql":"update tbl_units set is_deleted = 1 where id IN ('[object Object]')","sqlMessage":"Truncated incorrect DOUBLE value: '[object Object]'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '[object Object]'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '[object Object]'","sql":"update tbl_units set is_deleted = 1 where id IN ('[object Object]')","sqlMessage":"Truncated incorrect DOUBLE value: '[object Object]'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '[object Object]'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Unit created with ID: 3"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units deleted: 3"}
+{"level":"info","message":"Units deleted: 2"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","message":"Error creating unit: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'field list'","sql":"\n                UPDATE tbl_units \n                SET is_delete = 0 \n                WHERE id = 1\n            ","sqlMessage":"Unknown column 'is_delete' in 'field list'","sqlState":"42S22","stack":"Error: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'field list'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:56:20)\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'","sql":"update tbl_units set is_deleted = 1 where id IN ('ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'ltr'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'","sql":"update tbl_units set is_deleted = 1 where id IN ('ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'ltr'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","message":"Error creating unit: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'field list'","sql":"\n                UPDATE tbl_units \n                SET is_delete = 0 \n                WHERE id = 1\n            ","sqlMessage":"Unknown column 'is_delete' in 'field list'","sqlState":"42S22","stack":"Error: ER_BAD_FIELD_ERROR: Unknown column 'is_delete' in 'field list'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:56:20)\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'","sql":"update tbl_units set is_deleted = 1 where id IN ('ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'ltr'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Private')","sqlMessage":"Truncated incorrect DOUBLE value: 'Private'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types deleted: 2"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'","sql":"update tbl_units set is_deleted = 1 where id IN ('ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'ltr'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'","sql":"update tbl_units set is_deleted = 1 where id IN ('ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'ltr'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Units deleted: 1"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Government')","sqlMessage":"Truncated incorrect DOUBLE value: 'Government'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Government'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'","sql":"update tbl_units set is_deleted = 1 where id IN ('ltr')","sqlMessage":"Truncated incorrect DOUBLE value: 'ltr'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'ltr'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Private')","sqlMessage":"Truncated incorrect DOUBLE value: 'Private'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Private', 1)","sqlMessage":"Truncated incorrect DOUBLE value: 'Private'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Private', 1)","sqlMessage":"Truncated incorrect DOUBLE value: 'Private'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types deleted: 2"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting units: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Kg'","sql":"update tbl_units set is_deleted = 1 where id IN ('Kg')","sqlMessage":"Truncated incorrect DOUBLE value: 'Kg'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Kg'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\units.model.js:94:12)\n    at deleteUnit (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\units.controller.js:236:32)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"index":0,"level":"error","message":"Error deleting customer admin types: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'","sql":"update tbl_customer_admin_type set is_deleted = 1 where id IN ('Private')","sqlMessage":"Truncated incorrect DOUBLE value: 'Private'","sqlState":"22007","stack":"Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'Private'\n    at Sequence._packetToError (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\customer-admin-type.model.js:94:12)\n    at deleteCustomerAdminType (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\controllers\\customer-admin-type.controller.js:235:36)\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\hmi\\Rakaz\\rakaz_api_28072025 - Copy\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types deleted: 2"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin types deleted: 1"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"level":"info","message":"Units deleted: 2"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Units deleted: 1"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"level":"info","message":"Customer admin types deleted: 2"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"level":"info","message":"Units deleted: 2"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin type created with ID: 1"}
+{"level":"info","message":"Customer admin type created with ID: 2"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"level":"info","message":"Unit created with ID: 3"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Units fetched successfully"}
+{"level":"info","message":"Unit created with ID: 1"}
+{"level":"info","message":"Unit created with ID: 2"}
+{"level":"info","message":"Unit created with ID: 3"}
+{"level":"info","message":"Unit created with ID: 4"}
+{"level":"info","message":"Unit created with ID: 5"}
+{"level":"info","message":"Unit created with ID: 6"}
+{"level":"info","message":"Unit created with ID: 7"}
+{"level":"info","message":"Unit created with ID: 8"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"code":"ER_WRONG_VALUE_COUNT_ON_ROW","errno":1136,"index":0,"level":"error","message":"Error creating device: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1","sql":"\n            INSERT INTO tbl_devices (\n                deviceId, sensortype, sensorparameters, devicemake, devicemodel, \n                status, created_by, created_on\n            ) VALUES ('632636621346', NULL, 8, '14,13,12', 'DeviceMake1', 'DeviceMake2025','Active', 1, NOW())\n        ","sqlMessage":"Column count doesn't match value count at row 1","sqlState":"21S01","stack":"Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1\n    at Sequence._packetToError (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.createDevice (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:166:12)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\devices.controller.js:264:30\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:250:20)\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"code":"ER_WRONG_VALUE_COUNT_ON_ROW","errno":1136,"index":0,"level":"error","message":"Error creating device: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1","sql":"\n            INSERT INTO tbl_devices (\n                deviceId, sensortype, sensorparameters, devicemake, devicemodel, \n                status, created_by, created_on\n            ) VALUES ('632636621346', NULL, 8, '14,13,12', 'DeviceMake1', 'DeviceMake2025','Active', 1, NOW())\n        ","sqlMessage":"Column count doesn't match value count at row 1","sqlState":"21S01","stack":"Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1\n    at Sequence._packetToError (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.createDevice (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:166:12)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\devices.controller.js:264:30\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:250:20)\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)"}
+{"level":"info","message":"Device created with ID: 1"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device created with ID: 1"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device created with ID: 1"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device created with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device created with ID: 3"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 3"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 3"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 3"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 3"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 3"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 3"}
+{"level":"info","message":"Device fetched with ID: 3"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device deleted with ID: 1"}
+{"level":"info","message":"Device deleted with ID: 3"}
+{"level":"info","message":"Device deleted with ID: 3"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 2"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"Customer Admin updated with ID: 1"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"Customer Admin updated with ID: 1"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Customer Admin updated with ID: 1"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"Customer Admin updated with ID: 1"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device fetched with ID: 2"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device updated with ID: 2"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device deleted with ID: 1"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer deleted with ID: 1"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer deleted with ID: 3"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device deleted with ID: 3"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"error","message":"Error mapping device to customer: No devices provided","stack":"Error: No devices provided\n    at Object.DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:261:29)\n    at DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\devices.controller.js:511:26)\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\login.model.js:96:20)\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"error","message":"Error mapping device to customer: No devices provided","stack":"Error: No devices provided\n    at Object.DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:261:29)\n    at DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\devices.controller.js:511:26)\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\login.model.js:96:20)\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)"}
+{"level":"error","message":"Error mapping device to customer: No devices provided","stack":"Error: No devices provided\n    at Object.DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:261:29)\n    at DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\devices.controller.js:511:26)\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\login.model.js:96:20)\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","message":"Error mapping device to customer: ER_BAD_FIELD_ERROR: Unknown column 'customer_id' in 'field list'","sql":"\n            UPDATE tbl_devices \n            SET customer_id = 1 \n            WHERE id IN (2)\n        ","sqlMessage":"Unknown column 'customer_id' in 'field list'","sqlState":"42S22","stack":"Error: ER_BAD_FIELD_ERROR: Unknown column 'customer_id' in 'field list'\n    at Sequence._packetToError (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:368:12)\n    --------------------\n    at Pool.query (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Pool.js:199:23)\n    at Object.DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\devices.model.js:274:12)\n    at DeviceMappingToCustomer (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\devices.controller.js:511:26)\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\login.model.js:96:20)"}
+{"level":"info","message":"Device mapped to customer with ID: true"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Device mapped to customer with ID: false"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device mapped to customer with ID: false"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Device mapped to customer with ID: true"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device mapped to customer with ID: true"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"Devices fetched successfully"}
+{"level":"info","message":"Device mapping list fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"error","message":"Exception in createSubscription: db.beginTransaction is not a function","stack":"TypeError: db.beginTransaction is not a function\n    at Object.createSubscription (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\subscriptions.model.js:114:12)\n    at createSubscription (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\subscriptions.controller.js:187:32)\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\login.model.js:96:20)\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)"}
+{"level":"error","message":"Exception in createSubscription: db.beginTransaction is not a function","stack":"TypeError: db.beginTransaction is not a function\n    at Object.createSubscription (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\subscriptions.model.js:114:12)\n    at createSubscription (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\controllers\\subscriptions.controller.js:187:32)\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:85:9\n    at Layer.handle [as handle_request] (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\middleware\\auth.middleware.js:63:13\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\app\\models\\login.model.js:96:20)\n    at Query.<anonymous> (D:\\askiam\\Latest UI Rakaaz\\rakaazapi-v1.0\\node_modules\\mysql\\lib\\Connection.js:526:10)"}
+{"level":"info","message":"Subscription created with ID: 1"}
+{"level":"info","message":"Subscription created with ID: 1"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscription created with ID: 2"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscription updated with ID: 2"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscription updated with ID: 2"}
+{"level":"info","message":"Subscription updated with ID: 2"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscription updated with ID: 2"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscription updated with ID: 2"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscription updated with ID: 2"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscription deleted with ID: 1"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscription created with ID: 3"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Cities fetched for state 5"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"User logged in successfully: yaantrac"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customer fetched with ID: 1"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer admin types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"States fetched for country: 101"}
+{"level":"info","message":"Cities fetched for state 36"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Sensors fetched successfully"}
+{"level":"info","message":"User logged in successfully: testadmin"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
+{"level":"info","message":"Currencies fetched successfully"}
+{"level":"info","message":"Customer types fetched successfully"}
+{"level":"info","message":"Countries fetched successfully"}
+{"level":"info","message":"Subscriptions fetched successfully"}
+{"level":"info","message":"Customers fetched successfully"}
