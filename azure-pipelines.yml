@@ -17,8 +17,9 @@ steps:
 - task: Npm@1
   displayName: 'Installing Module on Client Application'
   inputs:
-    command: 'install'
+    command: 'custom'
     workingDir: 'rakaz-multi-modules'
+    customCommand: 'install --force'
 
 - task: Npm@1
   displayName: 'Installing Modules on Server'
