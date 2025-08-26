@@ -73,7 +73,7 @@ require("./app/routers/customer-type.router")(app);
 require("./app/routers/subscriptions.router")(app);
 require("./app/routers/sensors-group.router")(app);
 require("./app/routers/sensor-group-mapping.router")(app);
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
