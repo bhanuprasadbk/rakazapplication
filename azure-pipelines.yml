@@ -37,7 +37,7 @@ steps:
 - task: CopyFiles@2
   inputs:
     Contents: |
-      rakaz-multi-modules/dist/**
+      rakaz-multi-modules/dist/rakaz-multi-modules/**
       rakaazapi-v1.0/**
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
